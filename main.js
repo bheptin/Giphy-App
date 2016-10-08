@@ -14,7 +14,7 @@
           }
       });
 
-      $('#gif_search').bind('submit', function() {
+      $('#gif_search').on('submit', function() {
           location.hash = "#Gifs"
           $(".jumbotron").hide();
           $("#favorites_page").hide();
